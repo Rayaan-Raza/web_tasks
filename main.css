@@ -20,6 +20,7 @@ nav {
 
 nav ul li {
   display: inline;
+  text-align: center;
   margin-right: 50px;
 }
 
@@ -97,4 +98,24 @@ footer {
   color: white;
   text-align: center;
   padding: 20px;
+}
+
+@media (max-width: 600px) {
+  nav {
+    padding: 5px;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 5px 0;
+  }
+
+  .gallery {
+    justify-content: center;
+  }
+
+  .gallery-item {
+    width: 80%;
+    margin: 10px auto;
+  }
 }
